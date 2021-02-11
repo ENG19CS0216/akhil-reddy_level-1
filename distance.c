@@ -14,13 +14,11 @@ int inputX()
    printf("Enter x value:");
    scanf("%f",&x);
    return x;
-}
 int inputY()
 {
     float y;
     printf("Enter y value:");
     scanf("%f",&y);
-    return y;
 }
 int main()
 {
@@ -30,4 +28,4 @@ int main()
   x2=pointX();
   y2=pointY();
   distance(x1,y1,x2,y2);
-  return 0;
+ 
